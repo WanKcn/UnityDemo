@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="766353a2-f52e-41bd-a2c2-0691496709cb" name="Default Changelist" comment="" />
+    <list default="true" id="766353a2-f52e-41bd-a2c2-0691496709cb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ABTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ABTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssetBundles/iOS/iOS" beforeDir="false" afterPath="$PROJECT_DIR$/AssetBundles/iOS/iOS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssetBundles/iOS/iOS.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/AssetBundles/iOS/iOS.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssetBundles/iOS/model" beforeDir="false" afterPath="$PROJECT_DIR$/AssetBundles/iOS/model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssetBundles/iOS/model.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/AssetBundles/iOS/model.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Cube.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Cube.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Cube.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/iOS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/iOS.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/iOS.manifest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/iOS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/model" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/model.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/model.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/096043DF-4674-46AA-8ABC-AD8C9A8B656E/fd/dc3c3933/AssetBundle.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/ABTest.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1tNr76pK9034m55bStIzutadDRr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -14,20 +42,55 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="766353a2-f52e-41bd-a2c2-0691496709cb" name="Default Changelist" comment="" />
       <created>1622620220293</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622620220293</updated>
+      <workItem from="1622628363916" duration="4190000" />
     </task>
     <servers />
   </component>
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
