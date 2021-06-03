@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="766353a2-f52e-41bd-a2c2-0691496709cb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ABTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ABTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssetBundles/StandaloneWindows/StandaloneWindows" beforeDir="false" afterPath="$PROJECT_DIR$/AssetBundles/StandaloneWindows/StandaloneWindows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssetBundles/StandaloneWindows/StandaloneWindows.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/AssetBundles/StandaloneWindows/StandaloneWindows.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssetBundles/StandaloneWindows/head" beforeDir="false" afterPath="$PROJECT_DIR$/AssetBundles/StandaloneWindows/head" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssetBundles/StandaloneWindows/head.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/AssetBundles/StandaloneWindows/head.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssetBundles/StandaloneWindows/model" beforeDir="false" afterPath="$PROJECT_DIR$/AssetBundles/StandaloneWindows/model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssetBundles/StandaloneWindows/model.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/AssetBundles/StandaloneWindows/model.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Cube.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ABTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ABTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/StandaloneWindows" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/StandaloneWindows" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/StandaloneWindows.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/StandaloneWindows.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/head" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/head" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/head.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/head.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/model" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/model.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/model.manifest" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +33,7 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/ABTest.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ABMainTest.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tNr76pK9034m55bStIzutadDRr" />
@@ -67,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622620220293</updated>
-      <workItem from="1622628363916" duration="4582000" />
+      <workItem from="1622628363916" duration="6248000" />
     </task>
     <servers />
   </component>

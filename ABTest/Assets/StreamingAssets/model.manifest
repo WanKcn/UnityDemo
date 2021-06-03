@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 912048735
+CRC: 3050561829
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: fdce773b260bb6b8dfee8acc0f00c24e
+    Hash: 6b2b5e8b5e5c6a73ca409fd9c3692459
   TypeTreeHash:
     serializedVersion: 2
-    Hash: a428d1c388a7fb4efbb51469bede9290
+    Hash: 7d1e0093d0592ca7550333bbf0c8f406
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -21,11 +21,10 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 43
   Script: {instanceID: 0}
-- Class: 48
-  Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Resources/Cube.prefab
-Dependencies: []
+Dependencies:
+- /Users/wankcn/Desktop/UnityDemo/ABTest/AssetBundles/StandaloneWindows/head

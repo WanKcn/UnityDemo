@@ -1,20 +1,25 @@
 ManifestFileVersion: 0
-CRC: 2008761526
+CRC: 37085973
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 87e49936034a06a9302b4d3d5a54d3e0
+    Hash: e7b553a8ccd57eb4e75f9a1cbf0f5537
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 4df8c69f2c8a6ad9e3cbf82bb83e4dc3
+    Hash: d751757b6fc8108761ab158c6962670a
 HashAppended: 0
 ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
 - Class: 28
+  Script: {instanceID: 0}
+- Class: 48
   Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Resources/red.mat
 - Assets/img/head3.JPG
 - Assets/img/head2.jpeg
 - Assets/img/head1.jpeg

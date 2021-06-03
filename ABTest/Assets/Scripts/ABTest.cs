@@ -23,6 +23,7 @@ public class ABTest : MonoBehaviour
         Instantiate(obj);
         // Instantiate(obj1);
 
+        ab.Unload(true);
         // 异步加载——》协程
         StartCoroutine(LoadRes("head", "head1"));
     }
