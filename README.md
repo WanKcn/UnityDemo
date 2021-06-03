@@ -1,50 +1,15 @@
-# UnityDemo
-Unity3D学习制作的Demo
+# <center>Instructions</center>
 
-## Unit1
+这是一个关于Unity基础学习的项目仓
 
-控制玩家移动
+### ECSHelloWorld
 
-```C#
-public class PlayerController : MonoBehaviour
-{
-    public float speed;
+ECS技术的学习
 
-    // 控制前后运动
-    private float verticalInput;
+### BehaviorDesignerProj
 
-    // 控制旋转y轴
-    private float horizontalInput;
+行为树学习
 
-    // 旋转速度
-    private float turnSpeed = 50;
+### ABTest
 
-
-    private void FixedUpdate()
-    {
-        verticalInput = Input.GetAxis("Vertical"); // 获得（-1，1）
-        horizontalInput = Input.GetAxis("Horizontal");
-        transform.Translate(Vector3.forward * Time.deltaTime * speed * verticalInput);
-        transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime * horizontalInput); // 0,1,0 沿着y轴移动即旋转
-    }
-}
-```
-
-相机视野跟随
-
-```c#
-public class CameraFollow : MonoBehaviour
-{
-    public GameObject player;
-
-    // 相机到汽车坐标的距离
-    private Vector3 offset = new Vector3(0, 5, -7);
-
-    void LateUpdate()
-    {
-        // 相机视野跟随player  在Player坐标基础上 + 位移
-        transform.position = player.transform.position + offset;
-    }
-}
-```
-
+Asset Bundle的学习
