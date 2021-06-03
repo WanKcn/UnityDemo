@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="766353a2-f52e-41bd-a2c2-0691496709cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ABTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ABTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssetBundles/iOS/iOS" beforeDir="false" afterPath="$PROJECT_DIR$/AssetBundles/iOS/iOS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssetBundles/iOS/iOS.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/AssetBundles/iOS/iOS.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssetBundles/iOS/model" beforeDir="false" afterPath="$PROJECT_DIR$/AssetBundles/iOS/model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssetBundles/iOS/model.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/AssetBundles/iOS/model.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Cube.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Cube.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Cube.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/iOS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/iOS.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/iOS.manifest.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/iOS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/model" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/model.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/model.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ABTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ABTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622620220293</updated>
-      <workItem from="1622628363916" duration="4190000" />
+      <workItem from="1622628363916" duration="4582000" />
     </task>
     <servers />
   </component>

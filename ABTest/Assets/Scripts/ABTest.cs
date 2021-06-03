@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -35,5 +36,15 @@ public class ABTest : MonoBehaviour
         yield return abR;
         // abR.asset是一个Object类型
         image.sprite = abR.asset as Sprite;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+            // false可以保留资源只卸载AB包
+            AssetBundle.UnloadAllAssetBundles(false);
+        if (Input.GetKeyDown(KeyCode.A))
+            // 会卸载掉所有资源
+            AssetBundle.UnloadAllAssetBundles(true);
     }
 }
