@@ -20,13 +20,12 @@ public class Lua_Loader : MonoBehaviour
     {
         string path = Application.dataPath + "/Lua/" + fileName + ".lua";
         Debug.Log(path);
-        
+
         if (File.Exists(path))
             return File.ReadAllBytes(path);
         else
-            Debug.Log("MyCustonLoader重定向文件失败，文件名为"+fileName);
-        
+            Debug.Log("MyCustonLoader重定向文件失败，文件名为" + fileName);
+
         return null;
     }
-
 }
