@@ -8,9 +8,11 @@ public class LuaMngTest : MonoBehaviour
     {
         LuaManager.GetInstance().Init();
         // 文件存在
-        LuaManager.GetInstance().DoString("require('Main')");
-        // 不存在该文件
-        LuaManager.GetInstance().DoString("require('Main_2')");
+        LuaManager.GetInstance().DoLuaFile("Main");
+        // // 存在AB包中的文件
+        // LuaManager.GetInstance().DoLuaFile("Main");
+        // // 不存在该文件
+        // LuaManager.GetInstance().DoLuaFile("Mian_2");
     }
     
 }
