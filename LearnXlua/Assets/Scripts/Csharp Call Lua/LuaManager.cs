@@ -12,6 +12,12 @@ public class LuaManager : BaseManager<LuaManager>
 {
     private LuaEnv luaEnv;
 
+    /// 得到Lua中的_G
+    public LuaTable Global
+    {
+        get { return luaEnv.Global; }
+    }
+
     /// <summary>
     /// 初始化解析器
     /// </summary>
@@ -24,6 +30,7 @@ public class LuaManager : BaseManager<LuaManager>
         // 热更新测试用
         // luaEnv.AddLoader(MyCustomABLoader);
     }
+
 
     private Byte[] MyCustomLoader(ref string fileName)
     {
@@ -67,6 +74,7 @@ public class LuaManager : BaseManager<LuaManager>
             Debug.Log("解析器为空");
             return;
         }
+
         luaEnv.DoString(str);
     }
 
@@ -80,6 +88,7 @@ public class LuaManager : BaseManager<LuaManager>
             Debug.Log("解析器为空");
             return;
         }
+
         luaEnv.Tick();
     }
 
@@ -93,6 +102,7 @@ public class LuaManager : BaseManager<LuaManager>
             Debug.Log("解析器为空");
             return;
         }
+
         luaEnv.Dispose();
         // 销毁后解析器为空
         luaEnv = null;
