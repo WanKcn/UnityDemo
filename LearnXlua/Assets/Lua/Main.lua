@@ -1,1 +1,5 @@
-print("一个重定向的lua文件")
+print("主Lua启动脚本")
+
+
+-- 从main中启动Test脚本
+require("Test")
