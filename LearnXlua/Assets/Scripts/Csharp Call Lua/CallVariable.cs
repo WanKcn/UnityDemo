@@ -17,7 +17,7 @@ public class CallVariable : MonoBehaviour
         LuaManager.GetInstance().Global.Set("testString", "123456");
         string str = LuaManager.GetInstance().Global.Get<string>("testString");
         Debug.Log("testSting:" + str);
-        
+
         // 无法访问到local变量 打印报错
         // int i2 = LuaManager.GetInstance().Global.Get<int>("num");
         // Debug.Log("testNumeber:" + i2);
