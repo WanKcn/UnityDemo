@@ -16,6 +16,10 @@ public delegate int CustomCall3(int a, out int b, out bool c, out string d, out 
 [CSharpCallLua]
 public delegate int CustomCall4(int a, ref int b, ref bool c, ref string d, ref int e);
 
+// 变长参数根据实际情况定义参数类型
+[CSharpCallLua]
+public delegate void CustomCall5(string a, params object[] args);
+
 public class CallFunction : MonoBehaviour
 {
     void Start()
@@ -72,7 +76,14 @@ public class CallFunction : MonoBehaviour
         int tag = 0;
         foreach (var i in objs)
             Debug.Log("LuaFunction接收--第" + (++tag) + "个参数：" + i);
-        
-        /////////////////////////////////     无参无返回值     /////////////////////////////////
+
+        /////////////////////////////////////     变长参数     //////////////////////////////////
+        // 通过变量参数传进去的数 本质上存到Lua里是一个数组 
+        // 自定义委托
+        CustomCall5 call5 = LuaManager.GetInstance().Global.Get<CustomCall5>("testFun4");
+        call5("123", 1, "str", 1.2, false, 3, 4, 5);
+        // LuaFunction
+        LuaFunction lf4 = LuaManager.GetInstance().Global.Get<LuaFunction>("testFun4");
+        lf4.Call("1", 1.2, true, "aaa", 7, 8);
     }
 }
