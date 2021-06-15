@@ -50,7 +50,7 @@ public class CallFunction : MonoBehaviour
 
         //////////////////////////////////     多返回值     //////////////////////////////////
         // C#不支持多返回值 使用out和ref
-        // 使用out来接收多返回值
+        // 【推荐使用委托】使用out来接收多返回值 LuaFunction易产生垃圾
         CustomCall3 call3 = LuaManager.GetInstance().Global.Get<CustomCall3>("testFun3");
         int b;
         bool c;
@@ -66,5 +66,13 @@ public class CallFunction : MonoBehaviour
         int e1 = 0;
         int a1 = call4(200, ref b1, ref c1, ref d1, ref e1);
         Debug.Log("使用out接收多返回值：" + a1 + "，" + b1 + "，" + c1 + "，" + d1 + "，" + e1);
+        // LuaFunction 返回一个数组，遍历打印 object注意小写
+        LuaFunction lf3 = LuaManager.GetInstance().Global.Get<LuaFunction>("testFun3");
+        object[] objs = lf3.Call(300);
+        int tag = 0;
+        foreach (var i in objs)
+            Debug.Log("LuaFunction接收--第" + (++tag) + "个参数：" + i);
+        
+        /////////////////////////////////     无参无返回值     /////////////////////////////////
     }
 }
