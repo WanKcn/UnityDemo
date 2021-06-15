@@ -37,3 +37,22 @@ testFun4 = function(a,...)
 		print(k,v)
 	end
 end
+
+-- list
+testList = {1,2,3,4,}
+testList2 = {1,0.2,"333",false}
+
+-- Dictionary
+testDic={
+	["1"] = 1,
+	["2"] = 2,
+	["3"] = 3,
+	["4"] = 4
+}
+
+testDic2={
+	["1"] = 1,
+	["ture"] = 1,
+	["false"] = true,
+	["222"] = false
+}
