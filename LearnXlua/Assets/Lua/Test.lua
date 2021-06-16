@@ -56,3 +56,19 @@ testDic2={
 	["false"] = true,
 	["222"] = false
 }
+
+
+-- Lua当中的一个自定义类
+testClass ={
+	testInt = 2;
+	testFloat = 1.3;
+	testBool = true;
+	testString = "567";
+	testFun = function()
+		print("this is a test fun")
+	end,
+	-- 嵌套映射
+	testInClass = {
+		testInInt = 5;
+	}
+}
