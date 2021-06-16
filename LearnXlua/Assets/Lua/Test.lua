@@ -58,7 +58,7 @@ testDic2={
 }
 
 
--- Lua当中的一个自定义类
+-- Lua当中的一个自定义类 table同用
 testClass ={
 	testInt = 2;
 	testFloat = 1.3;

@@ -7,6 +7,7 @@ using XLua;
 public delegate void CustomCall();
 
 // CsharpCallLua的特性是在Xlua命名空间中 加了之后需要在编辑器Xlua 生成代码generate code
+// 使用自定义委托时候需要添加特性 接口映射表
 [CSharpCallLua]
 public delegate int CustomCall2(int a);
 
