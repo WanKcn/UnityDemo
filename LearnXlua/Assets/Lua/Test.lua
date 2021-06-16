@@ -72,3 +72,18 @@ testClass ={
 		testInInt = 5;
 	}
 }
+
+-- 接口Interface
+testInterface ={
+	testInt = 2;
+	testFloat = 1.3;
+	testBool = true;
+	testString = "567";
+	testFun = function()
+		print("this is a test fun")
+	end,
+	-- 嵌套映射
+	testInterface = {
+		testInInt = 5;
+	}
+}

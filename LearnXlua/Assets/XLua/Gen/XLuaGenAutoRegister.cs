@@ -172,6 +172,10 @@ namespace XLua.CSObjectWrap
             wrapInit0(luaenv, translator);
             
             
+            translator.AddInterfaceBridgeCreator(typeof(CsharpCallInterface), CsharpCallInterfaceBridge.__Create);
+            
+            translator.AddInterfaceBridgeCreator(typeof(InCsharpCallInterface), InCsharpCallInterfaceBridge.__Create);
+            
             translator.AddInterfaceBridgeCreator(typeof(System.Collections.IEnumerator), SystemCollectionsIEnumeratorBridge.__Create);
             
             translator.AddInterfaceBridgeCreator(typeof(XLuaTest.IExchanger), XLuaTestIExchangerBridge.__Create);
