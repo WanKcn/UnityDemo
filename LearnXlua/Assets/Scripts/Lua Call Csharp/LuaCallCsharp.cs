@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,6 +23,21 @@ namespace WRTest
     }
 }
 
+/// <summary>
+/// 自定义枚举类 用于lua调用
+/// </summary>
+public enum WR_Enmu
+{
+    IDLE,
+    RUN,
+    ATTACK
+}
+
 public class LuaCallCsharp : MonoBehaviour
 {
+    private void Start()
+    {
+        // Unity中的枚举类
+        GameObject.CreatePrimitive(PrimitiveType.Cube);
+    }
 }
