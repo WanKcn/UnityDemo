@@ -6,4 +6,6 @@ print("进入Lua程序主入口")
 
 -- require("CallClass")
 
-require("CallEnum")
+-- require("CallEnum")
+
+require("CallArrListDic")
