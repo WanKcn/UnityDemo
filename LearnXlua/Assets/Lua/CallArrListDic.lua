@@ -1,5 +1,6 @@
 print("-------   调用数组 Array -------")
 
+Vector3 = CS.UnityEngine.Vector3
 -- C#调用数组
 local obj = CS.ArrListDic()
 -- 数组长度
@@ -34,6 +35,56 @@ print(obj.list.Count)
 for i=0,obj.list.Count-1 do
 	print(obj.list[i])
 end
+ 
+-- 自定义列表 先得到一个指定类型的列表类 通过类new列表
+local List_String = CS.System.Collections.Generic.List(CS.System.String)
+local list2 = List_String()
+list2:Add("number1")
+list2:Add("number2")
+list2:Add("number2")
+
+for i=0,list2.Count-1 do
+	print(list2[i])
+end
 
 print("-------   调用字典 Dictionary-------")
+obj.dic:Add(1,"111")
+obj.dic:Add(2,"222")
+print(obj.dic[1])
+
+-- 遍历字典
+for k,v in pairs(obj.dic) do
+	print(k.."-"..v)
+end
+
+-- 自定义字典 先得到一个指定类型的列表类 通过类new列表
+local Dic_String_Vector3 = CS.System.Collections.Generic.Dictionary(CS.System.String,Vector3)
+local dic2 = Dic_String_Vector3()
+-- 录入
+dic2:Add("111",Vector3.right)
+dic2:Add("222",Vector3.left)
+dic2:Add("333",Vector3.up)
+-- 打印 使用get_Item
+print(dic2:get_Item("111"))
+print(dic2:get_Item("222"))
+print(dic2:get_Item("333"))
+-- 遍历 字符串不可与vector连接
+for k,v in pairs(dic2) do
+	print(k,v)
+end
+-- 修改 set_Item
+dic2:set_Item("333",Vector3.down)
+print(dic2:get_Item("333"))
+
+-- 通过TryGetValue获得 返回两个值，在C#中返回bool，通过out返回出来
+print(dic2:TryGetValue("111")) 
+
+
+
+
+
+
+
+
+
 
