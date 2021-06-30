@@ -57,6 +57,35 @@ public class ArrListDic
 
 #endregion
 
+
+#region 扩展方法
+
+public static class Tools
+{
+    // ExtendFunc的扩展方法
+    public static void Move(this ExtendsFunc obj)
+    {
+        Debug.Log(obj.name + "移动");
+    }
+}
+
+public class ExtendsFunc
+{
+    public string name = "文若";
+
+    public void Speak(string str)
+    {
+        Debug.Log(str);
+    }
+
+    public static void Eat()
+    {
+        Debug.Log("eat something");
+    }
+}
+
+#endregion
+
 public class LuaCallCsharp : MonoBehaviour
 {
     private void Start()
